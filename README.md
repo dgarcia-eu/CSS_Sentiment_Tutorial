@@ -1,4 +1,4 @@
-# Tutorial on sentiment analysis evalutaion. How well can we predict sentiment in text?"
+# Tutorial on sentiment analysis evalutaion
 ## Dr. David Garcia
 ## 01-08-2018
 
