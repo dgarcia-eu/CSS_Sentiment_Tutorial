@@ -1,13 +1,11 @@
----
-title: "Tutorial on sentiment analysis evalutaion. How well can we predict sentiment in text?"
-author: "Dr. David Garcia"
-date: "01-08-2018"
----
+# Tutorial on sentiment analysis evalutaion. How well can we predict sentiment in text?"
+## Dr. David Garcia
+## 01-08-2018
 
 In this exercise we will learn how to use Syuzhet for social media texts. We will use evaluation datasets of annotated text to compare Syuzhet against GoogleNLP in Youtube and BBC Forum datasets.
 
 
-## Tasks:
+### Tasks:
 
 1. Download and prepare evaluation texts
 
@@ -17,7 +15,7 @@ In this exercise we will learn how to use Syuzhet for social media texts. We wil
 
 4. Conclusions
 
-# 1. Download and prepare evaluation texts
+## 1. Download and prepare evaluation texts
 
 **1.1 Download annotated datasets**
 
@@ -52,7 +50,7 @@ ytdf$text <- iconv(ytdf$text, from="latin-9", to="ASCII")
 ```
 
 
-# 2. Run Syuzhet over evaluation texts
+## 2. Run Syuzhet over evaluation texts
 
 **2.1 Install and load the syuzhet package**
 Install the syuzhet package. 
@@ -112,7 +110,7 @@ for (text in ytdf$text)
 }
 ```
 
-# 3. Evaluate against sentiment annotations and compare with Google NLP
+## 3. Evaluate against sentiment annotations and compare with Google NLP
 
 **3.1 Load Google NLP data**
 
