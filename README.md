@@ -1,6 +1,5 @@
 # Tutorial on sentiment analysis evalutaion
-## Dr. David Garcia
-## 01-08-2018
+## David Garcia. Aug 1st, 2018
 
 In this exercise we will learn how to use Syuzhet for social media texts. We will use evaluation datasets of annotated text to compare Syuzhet against GoogleNLP in Youtube and BBC Forum datasets.
 
